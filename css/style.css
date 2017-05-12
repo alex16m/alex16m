@@ -650,8 +650,8 @@ a:hover {
 }
 
 @keyframes spin {
-	from { transform: rotateY(0) rotateX(0);; }
-	to { transform: rotateY(360deg) rotateX(360deg); }
+	from { transform: rotateY(0) rotateX(0) rotateZ(0); }
+	to { transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg); }
 }
 
 .cube {
