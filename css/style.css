@@ -29,6 +29,14 @@ p {
     background-color: #F3F3F3;
 }
 
+.scale-up {
+    transform: scale(1.4);
+}
+
+.scale-regular {
+    transform: scale(1);
+}
+
 .margin-bottom-zero {
     margin-bottom: 0;
 }

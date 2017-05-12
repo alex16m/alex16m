@@ -57,6 +57,27 @@ function main() {
         $('html, body').animate({ scrollTop: $("#contact-forum").offset().top}, 900);
         $('#nav-content').hide(1000);
     });
+
+    $('#cube').on('click',function() {
+        $('#cube').addClass("scale-up");
+        $('#pyramid, #x-left-side, #sphere').removeClass("scale-up");
+
+    });
+
+    $('#pyramid').on('click',function() {
+        $('#pyramid').addClass("scale-up");
+        $('#cube, #x-left-side, #sphere').removeClass("scale-up");
+    });
+
+    $('#x-left-side').on('click',function() {
+        $('#x-left-side').addClass("scale-up");
+        $('#cube, #pyramid, #sphere').removeClass("scale-up");
+    });
+
+    $('#sphere').on('click',function() {
+        $('#sphere').addClass("scale-up");
+        $('#cube, #x-left-side, #pyramid').removeClass("scale-up");
+    });
 }
 
 $(document).ready(main);
