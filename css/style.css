@@ -1,0 +1,1028 @@
+/*=======================FONTS===========================*/
+@import url('https://fonts.googleapis.com/css?family=Kalam:700|Shadows+Into+Light+Two');
+h1, h2, h3 {
+    font-family: 'Kalam',cursive;
+}
+
+p {
+    font-family: 'Shadows Into Light Two', sans-serif;
+}
+
+/*=======================NAVBAR===================*/
+.text-centered {
+    text-align: center;
+}
+
+.position-fixed {
+    position: fixed;
+}
+
+#dropdown-logo{
+    width: 25px;
+    height: 25px;
+    float: left;
+    background-color: #000;
+    position: relative;
+}
+
+.base-background {
+    background-color: #F3F3F3;
+}
+
+.margin-bottom-zero {
+    margin-bottom: 0;
+}
+
+.nav {
+    height: 100vh;
+    width: 7%;
+    background-color: #91a9d3;
+    box-shadow: 0px 0px 20px 0px #0c4e7d, 0 0 100px #3163be, inset 0 0px 20px 20px #91a9d3, inset 1px 8px 20px 25px #91a9d3;
+    z-index: 1;
+}
+
+.logo-wrapper {
+    position: relative;
+    top: 48vh;
+    width: 70px;
+    height: 70px;
+    box-shadow: 0px 0px 20px 0px #5d5d5d, 0 0 100px #6c5f5f, inset 0 0px 20px 20px #857d7d, inset 1px 8px 20px 25px #0c0c0c;
+}
+
+.logo-wrapper {
+    animation: bubble-anim 2s ease-out infinite;
+}
+
+
+
+.logo-design-one {
+    position: absolute;
+    background-color: #e1e1ea;
+    width: 10px;
+    height: 51px;
+    overflow: hidden;
+    top: 13%;
+    left: 30%;
+    box-shadow: 0px 0px 20px 0px #cdcdcd, 0 0 100px #cfcfcf, inset 0 0px 20px 20px #e6e6e6, inset 1px 8px 20px 25px #e4e4e4;
+}
+
+.logo-design-two {
+    position: absolute;
+    background-color: #e1e1ea;
+    width: 53px;
+    height: 34px;
+    overflow: hidden;
+    top: 28%;
+    left: 28%;
+    box-shadow: 0px 0px 20px 0px #cdcdcd, 0 0 100px #cfcfcf, inset 0 0px 20px 20px #e6e6e6, inset 1px 8px 20px 25px #e4e4e4;
+    transform: rotateX(108deg) rotateY(61deg);
+}
+
+.logo-design-three {
+    position: absolute;
+    background-color: #e1e1ea;
+    width: 21px;
+    height: 14px;
+    overflow: hidden;
+    top: 48%;
+    left: 34%;
+    box-shadow: 0px 0px 20px 0px #cdcdcd, 0 0 100px #cfcfcf, inset 0 0px 20px 20px #e6e6e6, inset 1px 8px 20px 25px #e4e4e4;
+    transform: rotateX(54deg) rotateY(-170deg) rotateZ(96deg);
+}
+
+.dropdown-list {
+    width: 100vw;
+    height: 116vh;
+    top: -16vh;
+    left: 7vw;
+    position: fixed;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.tab {
+    height: 52px;
+    position: fixed;
+}
+
+.alex {
+    top: 12vh;
+}
+
+.alex h1 {
+    color: #e4e4e4;
+    text-shadow: 1px 1px 1px #3062be, 3px 3px 5px #4e78c5;
+}
+
+.home {
+    top: 31vh;
+}
+
+.about-me {
+    top: 44vh;
+}
+
+.contact-me {
+    top: 58vh;
+}
+
+a {
+    color: #123;
+}
+
+a:hover {
+    color: #d63232;
+    text-decoration: none;
+}
+/*==========End of NavBar=========*/
+
+
+
+/*==============Start of Hero=================*/
+.hero-bubble{
+    width: 300px;
+    height: 60px;
+    position: relative;
+    top: -50px;
+    left: -25px;
+    background: rgba(207, 207, 212, .8);
+    z-index: -1;
+    border-radius: 25%;
+    box-shadow:0px 0px 20px 0px #002844, 0 0 100px #1851b9,  inset 0 0px 20px 20px #F5F5F5, inset 1px 8px 20px 25px #E6E6DB;
+}
+
+.hero-header{
+    position: relative;
+    z-index: 1;
+    top: 51px;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    text-shadow: 3px 1px 1px #1851b9, 3px 3px 5px #1851b9;
+    box-shadow:0px 0px 20px 0px #002844, 0 0 100px #1851b9,  inset 0 0px 20px 20px #F5F5F5, inset 1px 8px 20px 25px #E6E6DB;
+}
+
+.hero-background {
+    background-color: #F3F3F3;
+    height: 600px;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.hero-wrapper-left {
+    align-self: flex-start;
+    align-self: center;
+    height: 400px;
+    width: 200px;
+    position: relative;
+}
+
+.hero-wrapper-center {
+    height: 400px;
+    width: 200px;
+    position: relative;
+    align-self: center;
+}
+
+
+/*=============Start of hero-head=================*/
+
+.hero-head {
+    position: absolute;
+    background-color: #f5d8b4;
+    width: 100px;
+    height: 105px;
+    border-radius: 40% 40% 50% 50%;
+    border-top: 0;
+    overflow: hidden;
+    top: 10px;
+    left: 25%;
+}
+
+.glasses-left-side {
+    position: absolute;
+    background-color: #000;
+    width: 20px;
+    height: 10px;
+    border-top: 0;
+    overflow: hidden;
+    top: 55px;
+    left: 25%;
+}
+
+.glasses-left-side-glass {
+    position: absolute;
+    background-color: #f5d8b4;
+    border: 4px solid #000;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    top: 55px;
+    left: 35%;
+}
+
+.glasses-middle {
+    position: absolute;
+    background-color: #000;
+    width: 13px;
+    height: 5px;
+    overflow: hidden;
+    top: 55px;
+    left: 50%;
+}
+
+.glasses-right-side-glass {
+    position: absolute;
+    background-color: #f5d8b4;
+    border: 4px solid #000;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    top: 55px;
+    left: 55%;
+}
+
+.glasses-right-side {
+    position: absolute;
+    background-color: #000;
+    width: 10px;
+    height: 8px;
+    border-top: 0;
+    overflow: hidden;
+    top: 55px;
+    left: 70%;
+}
+
+.hero-hair {
+    position: absolute;
+    background-color: #000;
+    width: 100px;
+    height: 30px;
+    border-radius: 13% 55% 9% 18%;
+    border-top: 0;
+    overflow: hidden;
+    top: 10px;
+    left: 25%;
+}
+
+.hero-left-eye {
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 60px;
+    left: 40%;
+}
+
+.hero-left-eye-pupil {
+    position: absolute;
+    background-color: #000;
+    width: 3px;
+    height: 3px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 63px;
+    left: 42%;
+}
+
+.hero-right-eye {
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 60px;
+    left: 60%;
+}
+
+.hero-right-eye-pupil {
+    position: absolute;
+    background-color: #000;
+    width: 3px;
+    height: 3px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 63px;
+    left: 62%;
+}
+
+.hero-lips {
+    position: absolute;
+    background-color: #000;
+    width: 30px;
+    height: 15px;
+    border-radius: 25% 25% 75% 75%;
+    border-top: 0;
+    overflow: hidden;
+    top: 90px;
+    left: 46%;
+}
+
+/*====================END OF HERO-HEAD=======================*/
+
+/*======================START OF HERO-BODY=========================*/
+.hero-body{
+    position: absolute;
+    background-color: #9d9d9d;
+    width: 80px;
+    height: 150px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 110px;
+    left: 30%;
+}
+
+.hero-button-up{
+    position: absolute;
+    background-color: #000;
+    width: 5px;
+    height: 107px;
+    overflow: hidden;
+    top: 110px;
+    left: 50%;
+}
+
+.hero-chest-pocket{
+    position: absolute;
+    width: 21px;
+    height: 25px;
+    overflow: hidden;
+    top: 125px;
+    left: 54%;
+    border-radius: 25%;
+    border: 1px solid #000;
+}
+
+.hero-left-sleeve{
+    position: absolute;
+    background-color: #fff;
+    width: 29px;
+    height: 24px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 69px;
+    left: 20%;
+    transform: rotate(-20deg);
+}
+
+.hero-right-sleeve{
+    position: absolute;
+    background-color: #fff;
+    width: 29px;
+    height: 24px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 181px;
+    left: 67%;
+    transform: rotate(-20deg);
+}
+
+.hero-belt{
+    position: absolute;
+    background-color: #000;
+    width: 79px;
+    height: 3px;
+    overflow: hidden;
+    top: 220px;
+    left: 30%;
+}
+
+.hero-left-arm{
+    position: absolute;
+    background-color: #9d9d9d;
+    width: 25px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 11px;
+    left: 20%;
+    transform: rotate(-20deg);
+}
+
+.hero-right-arm{
+    position: absolute;
+    background-color: #9d9d9d;
+    width: 25px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 115px;
+    left: 65%;
+    transform: rotate(-20deg);
+}
+
+.hero-left-arm-skin{
+    position: absolute;
+    background-color: #f5d8b4;
+    width: 25px;
+    height: 70px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 13px;
+    left: 15%;
+    transform: rotate(-20deg);
+}
+
+.hero-right-arm-skin{
+    position: absolute;
+    background-color: #f5d8b4;
+    width: 25px;
+    height: 64px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 180px;
+    left: 71%;
+    transform: rotate(-20deg);
+}
+
+.hero-left-leg{
+    position: absolute;
+    background-color:#494854;
+    width: 35px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 250px;
+    left: 25%;
+    transform: rotate(10deg);
+}
+
+.hero-right-leg{
+    position: absolute;
+    background-color: #494854;
+    width: 35px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 250px;
+    left: 55%;
+    transform: rotate(-10deg);
+}
+
+.hero-pants{
+        position: absolute;
+        background-color: #494854;
+        width: 79px;
+        height: 40px;
+        border-radius: 0% 0% 25% 25%;
+        border-top: 0;
+        overflow: hidden;
+        top: 223px;
+        left: 30%;
+}
+
+.hero-pants-left-shoe{
+    position: absolute;
+        background-color: #000;
+        width: 35px;
+        height: 29px;
+        border: 1px solid #000;
+        border-radius: 25% 25% 25% 25%;
+        border-top: 0;
+        overflow: hidden;
+        top: 352px;
+        left: 20%;
+        transform: rotate(12deg);
+}
+
+.hero-pants-right-shoe{
+    position: absolute;
+        background-color: #000;
+        width: 35px;
+        height: 29px;
+        border: 1px solid #000;
+        border-radius: 25% 25% 25% 25%;
+        border-top: 0;
+        overflow: hidden;
+        top: 352px;
+        left: 60%;
+        transform: rotate(-12deg);
+}
+
+.hero-pants-right-pocket{
+    position: absolute;
+    background-color: #494854;
+    width: 20px;
+    height: 15px;
+    border: 1px solid #000;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 231px;
+    left: 58%;
+    transform: rotate(-3deg);
+}
+
+/*===============Start of Hero Left==============*/
+.hero-left-arm-left{
+    position: absolute;
+    background-color: #9d9d9d;
+    width: 25px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 114px;
+    left: 20%;
+    transform: rotate(20deg);
+
+}
+
+.hero-left-arm-skin-left{
+    position: absolute;
+    background-color: #f5d8b4;
+    width: 25px;
+    height: 70px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 172px;
+    left: 15%;
+    transform: rotate(20deg);
+}
+
+.hero-left-sleeve-left{
+    position: absolute;
+    background-color: #fff;
+    width: 29px;
+    height: 24px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 162px;
+    left: 20%;
+    transform: rotate(20deg);
+}
+
+.hero-right-arm-left{
+    position: absolute;
+    background-color: #9d9d9d;
+    width: 25px;
+    height: 130px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 20px;
+    left: 68%;
+    transform: rotate(20deg);
+}
+
+.hero-right-arm-skin-left{
+    position: absolute;
+    background-color: #f5d8b4;
+    width: 25px;
+    height: 64px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 20px;
+    left: 74%;
+    transform: rotate(20deg);
+}
+
+.hero-right-sleeve-left{
+    position: absolute;
+    background-color: #fff;
+    width: 29px;
+    height: 24px;
+    border-radius: 25% 25% 25% 25%;
+    border-top: 0;
+    overflow: hidden;
+    top: 65px;
+    left: 68%;
+    transform: rotate(20deg);
+}
+/*===============End of Hero Left==============*/
+
+/*======================END OF HERO-BODY=========================*/
+
+/*======================End of Hero===============*/
+
+/*==========================Start of Content=======================*/
+.stage {
+    perspective: 800px;
+    perspective-origin: 93% 34px;
+    height: 400px;
+    width: 400px;
+}
+
+.cube {
+    position: relative;
+    width: 200px;
+    transform-style: preserve-3d;
+}
+
+.cube > figure {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #2B9AE2, 0 0 100px #2B9AE2, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+@keyframes spin {
+	from { transform: rotateY(0) rotateX(0);; }
+	to { transform: rotateY(360deg) rotateX(360deg); }
+}
+
+.cube {
+	animation: spin 5s infinite linear;
+}
+
+.back {
+    transform: translateZ(-100px) rotateY(180deg);
+}
+
+.right {
+    transform: rotateY(-270deg) translate(100px);
+    transform-origin: top right;
+}
+
+.left {
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+}
+
+.top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+}
+
+.bottom {
+    transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+}
+
+.front {
+    transform: translateZ(100px);
+}
+
+.pyramid {
+    position: relative;
+    width: 200px;
+    transform-style: preserve-3d;
+}
+
+.pyramid > figure {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #E24F63, 0 0 100px #E24F63, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+.pyramid-back {
+    transform: rotateY(180deg) translate3d(0px, 0px, 100px) rotateX(45deg);
+}
+
+.pyramid-right {
+    transform: rotateY(-270deg) translate(100px);
+    transform-origin: top right;
+}
+
+.pyramid-left {
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+}
+
+.pyramid-top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+}
+
+.pyramid-bottom {
+    transform: rotateX(85deg) translate3d(2px, 25px, 19px);
+    transform-origin: bottom center;
+}
+
+.pyramid-front {
+    transform: rotateY(0deg) translate3d(0px, 0px, 100px) rotateX(45deg);
+}
+
+.x-left-side {
+    position: relative;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: rotateZ(19deg);
+}
+
+.x-left-side > figure {
+    position: absolute;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #5b93d4, 0 0 100px #0059c2, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+.x-left-side-back {
+    transform: translateZ(-100px) rotateY(180deg);
+    width: 100px;
+    height: 325px;
+}
+
+.x-left-side-right {
+    transform: rotateY(-270deg) translate(100px);
+    transform-origin: top right;
+    width: 100px;
+    height: 325px;
+}
+
+.x-left-side-left {
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+    width: 100px;
+    height: 325px;
+}
+
+.x-left-side-top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+    width: 100px;
+    height: 200px;
+}
+
+.x-left-side-bottom {
+    transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+    width: 100px;
+    height: 325px;
+}
+
+.x-left-side-front {
+    transform: translateZ(100px);
+    width: 100px;
+    height: 325px;
+}
+
+.x-right-side {
+    position: absolute;
+    width: 200px;
+    transform-style: preserve-3d;
+    transform: rotateZ(-43deg);
+    top: 5%;
+    left: -62%;
+}
+
+.x-right-side > figure {
+    position: absolute;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #5b93d4, 0 0 100px #0059c2, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+.x-right-side-back {
+    transform: translateZ(-100px) rotateY(180deg);
+    width: 100px;
+    height: 325px;
+}
+
+.x-right-side-right {
+    transform: rotateY(-270deg) translate(100px);
+    transform-origin: top right;
+    width: 100px;
+    height: 325px;
+}
+
+.x-right-side-left {
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+    width: 100px;
+    height: 325px;
+}
+
+.x-right-side-top {
+    transform: rotateX(-90deg) translateY(-100px);
+    transform-origin: top center;
+    width: 100px;
+    height: 200px;
+}
+
+.x-right-side-bottom {
+    transform: rotateX(90deg) translateY(100px);
+    transform-origin: bottom center;
+    width: 100px;
+    height: 325px;
+}
+
+.x-right-side-front {
+    transform: translateZ(100px);
+    width: 100px;
+    height: 325px;
+}
+
+.sphere {
+    width: 250px;
+    height: 250px;
+    background-color: #3b4ba3;
+    border-radius: 50%;
+    background: radial-gradient(circle at 100px 100px, #5cabff, #000);
+    box-shadow:  inset -1px -2px 7px 0px #5b93d4, 0 0 100px #0059c2, 1px -2px 0px 20px rgba(34, 61, 91, 0.03), inset 1px 0px 20px 6px #2b5178;
+    animation: bubble-anim 2s ease-out infinite;
+}
+
+@keyframes bubble-anim {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scaleY(0.8s) scaleX(1.05);
+  }
+  48% {
+    transform: scaleY(1.2) scaleX(0.9);
+  }
+  68% {
+    transform: scaleY(0.95) scaleX(1.04);
+  }
+  80% {
+    transform: scaleY(1.02) scaleX(0.98);
+  }
+  97%, 100% {
+    transform: scale(1);
+  }
+}
+/*==========================End of Content=======================*/
+
+/*=============================Start of about me==============================*/
+
+.about-me-wrapper {
+    perspective: 800px;
+    perspective-origin: 93% 34px;
+    width: 96vw;
+    height: 500px;
+}
+
+.about-me-picture {
+    height: 136px;
+    width: 200px;
+    position: relative;
+    left: 18vw;
+    top: 3vh;
+    border-radius: 82%;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #2B9AE2, 0 0 100px #2B9AE2, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+.about-me-picture:hover {
+    animation: bubble-anim 2s ease-out infinite;
+}
+
+.about-me-wrapper > figure {
+    position: absolute;
+    width: 97vw;
+    height: 400px;
+    top: 3vh;
+    background-color: rgba(110, 142, 192, 0.2);
+    box-shadow: inset -1px -2px 7px 0px #2B9AE2, 0 0 100px #2B9AE2, inset 0 0px 20px 20px #F5F5F5, inset 1px 0px 20px 6px #E6E6DB;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.about-me-alex {
+    position: relative;
+    left: 113%;
+}
+
+.about-me-text {
+    font-size: 20px;
+    position: relative;
+    left: 18%;
+    width: 75vw;
+    top: 2vw;
+}
+/*=============================End of about me==============================*/
+
+/*=============================Start of contact-me=================*/
+.contact-me-form{
+    position: relative;
+    left: 8vw;
+    width: 20vw;
+}
+/*=============================End of contact-me=================*/
+
+/*===============MEDIA-QUERY===================*/
+@media  (max-width: 1200px)
+        and (min-width: 0px) {
+        .nav{
+            width: 100%;
+            height: 80px;
+            position: inherit;
+        }
+
+        .dropdown-list{
+            left: 0vw;
+            top: 80px;
+            z-index: 1;
+            position: fixed;
+        }
+
+        .logo-wrapper{
+            top: 0vh;
+            left: 45vw;
+        }
+
+        .tab {
+            height: 52px;
+            position: inherit;
+        }
+
+        .alex {
+            top: 12vh;
+        }
+
+        .alex h1 {
+            color: #e4e4e4;
+            text-shadow: 1px 1px 1px #3062be, 3px 3px 5px #4e78c5;
+        }
+
+        .home {
+            top: 24vh;
+        }
+
+        .about-me {
+            top: 12vh;
+            left: 75vw;
+        }
+
+        .contact-me {
+            top: 24vh;
+            left: 75vw;
+        }
+
+    }
+
+
+    @media  (max-width: 698px)
+            and (min-width: 0px) {
+
+            .dropdown-list{
+                    left: -4vw;
+                    top: 12px;
+                    height: 80vh;
+                    z-index: 1;
+                    position: relative;
+                }
+
+                .tab {
+                    height: 52px;
+                    position: inherit;
+                    }
+
+                .alex {
+                    top: 18vh;
+                    left: 40vw;
+                    width: 172px;
+                }
+
+                .alex h1 {
+                    color: #e4e4e4;
+                    text-shadow: 1px 1px 1px #3062be, 3px 3px 5px #4e78c5;
+                    }
+
+                .home {
+                    top: 17vh;
+                    left: 48vw;
+                    width: 82px;
+                    }
+
+                    .about-me {
+                        top: 16vh;
+                        left: 45vw;
+                        width: 135px;
+                    }
+
+                    .contact-me {
+                        top: 15vh;
+                        left: 47vw;
+                        width: 105px;
+                    }
+    }
+
+    /*===============End of Media-Query================*/
